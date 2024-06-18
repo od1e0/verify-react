@@ -1,104 +1,103 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #0d0d0d;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  .content {
-    text-align: left;
-    max-width: 400px;
-    padding: 20px;
-  }
-  
-  .header {
-    margin-bottom: 20px;
-  }
-  
-  .logo {
-    width: 66px;
-    margin-bottom: 10px;
-  }
-  
-  .description {
-    color: #ffffff;
-    text-align: left;
-    margin-bottom: 50px;
-  }
-  
-  .button {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    width: 350px;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    font-family: 'Montserrat', sans-serif;
-  }
+  display: flex;
+  justify-content: center;
+  background-color: #0d0d0d;
+  font-family: "Montserrat", sans-serif;
+}
 
-  .button span {
-    display: inline-block;
-    vertical-align: middle;
-    text-align: left;
-  }
-  
-  .icon {
-    margin: 0px 17px 0px 10px;
-    width: 45px;
-  }
-  
-  .success {
-    background-color: #2D598B;
-  }
-  
-  .success:hover {
-    background-color: #218838;
-  }
-  
-  .error {
-    background-color: #2D598B;
-  }
-  
-  .error:hover {
-    background-color: #c82333;
-  }
-  
-  .primary {
-    background-color: #2D598B;
-  }
-  
-  .primary:hover {
-    background-color: #0069d9;
-  }
+.content {
+  text-align: left;
+  margin-top: 50px;
+  max-width: 400px;
+  padding: 20px;
+}
 
-  .comingSoon {
-    background-color: #2D598B;
-    cursor: not-allowed;
-    position: relative;
-    justify-content: flex-start;
-    padding-right: 20px;
-  }
-  
-  .comingSoonText {
-    position: absolute;
-    right: 10px;
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-  }
-  
-  .comingSoonX {
-    color: red;
-    margin-right: 4px;
-  }
+.header {
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 66px;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #ffffff;
+  text-align: left;
+  margin-bottom: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 350px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: "Montserrat", sans-serif;
+}
+
+.button span {
+  text-align: left;
+}
+
+.icon {
+  margin: 0px 17px 0px 10px;
+  max-width: 45px;
+}
+
+.success {
+  background-color: #2d598b;
+}
+
+.success:hover {
+  background-color: #218838;
+}
+
+.error {
+  background-color: #2d598b;
+}
+
+.error:hover {
+  background-color: #c82333;
+}
+
+.primary {
+  background-color: #2d598b;
+}
+
+.primary:hover {
+  background-color: #0069d9;
+}
+
+.comingSoon {
+  background-color: #2d598b;
+  cursor: not-allowed;
+  position: relative;
+  justify-content: flex-start;
+  padding-right: 20px;
+}
+
+.comingSoonText {
+  position: absolute;
+  right: 10px;
+  align-items: center;
+  text-align: center !important;
+  font-size: 7px;
+}
+
+.comingSoonX {
+  color: red;
+  font-size: 15px;
+  margin-right: 4px;
+}
